@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="BitStream.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libMinHook-x86-v141-md.lib" />
+    <Library Include="libMinHook-x86-v141-mdd.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MinHook.h" />
+    <ClInclude Include="RakClient.h" />
+    <ClInclude Include="BitStream.h" />
+  </ItemGroup>
+</Project>
